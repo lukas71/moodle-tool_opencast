@@ -66,6 +66,7 @@ class seriesmapping extends \core\persistent
             ),
             'isdefault' => array(
                 'type' => PARAM_BOOL,
+				'default' => '1',
             ),
         );
     }
